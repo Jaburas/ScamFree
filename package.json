@@ -1,0 +1,24 @@
+{
+  "name": "scamfree",
+  "version": "1.0.0",
+  "description": "this is the read me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaburas/ScamFree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaburas/ScamFree/issues"
+  },
+  "homepage": "https://github.com/Jaburas/ScamFree#readme",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "natural": "^8.1.0"
+  }
+}
