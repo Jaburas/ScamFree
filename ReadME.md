@@ -1,7 +1,7 @@
 # ScamFree 2.0: AI-Powered Phishing Detection
 ScamFree is a specialized Chrome Extension and Node.js backend designed to identify and flag potential email scams in real-time. Developed during a 2026 hackathon, this tool empowers users to navigate their Gmail inbox with an extra layer of security against fraudulent messages.
 
-🚀 Features
+ Features
 - Contextual Gmail Analysis: Seamlessly integrates into the Gmail interface to scan message content.
 - Node.js Backend: Uses a high-performance JavaScript backend for pattern matching and logic processing.
 - Instant Feedback: Provides non-blocking, fast analysis to keep the user experience smooth.
@@ -12,7 +12,7 @@ Programs and Tech Stack:
 - Frontend: HTML5, CSS, JavaScript
 - Package Management: npm
 
-⚙️ Installation & Setup:
+ Installation & Setup:
 A. Load the Extension
 1. Download the latest release folder: ScamFree2.0.
 2. Open Google Chrome and navigate to chrome://extensions/.
