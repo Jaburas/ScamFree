@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "Scam Free",
+    "version": "1.0.0",
+
+    "permissions":[
+        "storage",
+        "scripting",
+        "activeTab",
+        "contextMenus" 
+    ],
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "ScamFree - Scan for Scams",
+        "default_icons":[
+            "default_icons/Trustful.png",
+            "default_icons/Warning.png",
+            "default_icons/Scam.png"
+        ] 
+    },
+
+    "content_scripts":[
+        {
+            "matches": ["https://mail.google.com/*"],
+        
+            "js": ["content.js"]
+        }
+    ],
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "https://mail.google.com/*",
+        "https://outlook.live.com/*",
+        "https://outlook.office.com/*"
+        ]
+    
+}
