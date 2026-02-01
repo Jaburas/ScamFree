@@ -72,7 +72,7 @@ app.post("/classify", (req, res) => {
   const label = classifier.classify(text);
   const scores = classifier.getClassifications(text);
   const total = scores.reduce((sum, s) => sum + s.value, 0) || 1;
-  const confidence = Math.round((scores[0].value / total));
+  const confidence = (scores[0].value / total);
 
   const reasons = getTriggers(text);
 
