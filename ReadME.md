@@ -6,7 +6,7 @@ ScamFree is a specialized Chrome Extension and Node.js backend designed to ident
 - Node.js Backend: Uses a high-performance JavaScript backend for pattern matching and logic processing.
 - Instant Feedback: Provides non-blocking, fast analysis to keep the user experience smooth.
 
-Programs and Tech Stack:
+Programs and Tech Stacks:
 - Browser Integration: Chrome Extension API (Manifest v3)
 - Backend: Node.js
 - Frontend: HTML5, CSS, JavaScript
