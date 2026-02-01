@@ -2,17 +2,13 @@ console.log("Scam detector running");
 let lastEmailtext = "";
 //scanning email and sending it to AI
 async function scanEmail(emailText){
-    const res = await fetch("http://localhost:3003/classify",{
-        method: "POST",
-        headers:{
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-            text: emailText
-        })
+    return new Promise((resolve) => {
+        chrome.runtime.sendMessage(
+        { action: "classifyEmail", text: emailText },
+        (response) => resolve(response)
+        );
     });
-    return await res.json();
-}
+    }
 //=================
 //Observing the Gmail DOM, waiting to be in email vs inbox, taking the raw text in the email
 const observer = new MutationObserver(()=>{

@@ -39,7 +39,7 @@
         "service_worker": "background.js"
     },
     "host_permissions": [
-        "https://mail.google.com/*"
+        "http://localhost:3002/*"
         ]
     
 }
