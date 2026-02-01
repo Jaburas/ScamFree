@@ -34,12 +34,12 @@
             "js": ["content.js"]
         }
     ],
+    "host_permissions": [
+        "http://localhost:3002/*"
+    ],
 
     "background": {
         "service_worker": "background.js"
-    },
-    "host_permissions": [
-        "http://localhost:3002/*"
-        ]
+    }
     
 }
