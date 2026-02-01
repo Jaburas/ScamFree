@@ -38,3 +38,7 @@ The extension is now connected to your local Node.js server and ready to scan fo
 Port in Use: If you get an error saying the port is busy, ensure you aren't running another instance of the server.
 
 Permissions: Ensure your Chrome Extension has permission to access http://localhost:[YOUR_PORT] in the manifest.json file.
+
+<img width="1513" height="545" alt="image" src="https://github.com/user-attachments/assets/9a069169-3314-4c41-962f-fb3bd58ed430" />
+
+
