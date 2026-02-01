@@ -9,15 +9,22 @@
         "activeTab",
         "contextMenus" 
     ],
+    "icons":{
+    "16": "default_icons/Trustful.png",
+    "48": "default_icons/Trustful.png",
+    "128": "default_icons/Trustful.png"
+    },
 
     "action": {
         "default_popup": "popup.html",
         "default_title": "ScamFree - Scan for Scams",
-        "default_icons":[
-            "default_icons/Trustful.png",
-            "default_icons/Warning.png",
-            "default_icons/Scam.png"
-        ] 
+        "default_icon":{
+            "16": "default_icons/Trustful.png",
+            "48": "default_icons/Trustful.png",
+            "128": "default_icons/Trustful.png"
+
+
+        }
     },
 
     "content_scripts":[
